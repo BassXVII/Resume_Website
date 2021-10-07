@@ -22,13 +22,14 @@ p {
     letter-spacing: 5px;
 }
 
-.banner {
+
+overlay img { display: none; }
+
+overlay.currently-loading img { 
+    display: block; 
     width: 100%;
-    padding: 60px 0;
-    text-align: center;
-    
-    background: #33cccc;
-    color: white;
+    height: 100%;
+}
 }
 
 .Intro_Gif img{
