@@ -1,90 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400, 300, 100, 700, 900);
 
 body {
-    background: rgb(166, 232, 233);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,45,253,1) 200%); ; 
+  background: rgb(235, 198, 76);
+  background-image: url("https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=2000") 
 }
 
 h1,p{
    margin: 0;
     padding: 0;
-    font-family: "Lato";
+    font-family: courier New;
     }
 
-.header {
-    font-size: 1.8em;
-    padding: 1px 0;
-    font-weight: 800;
-    position: absolute;
-    right: -20px;
-    top: 10px;
-    height: 15px;
-    width: 50%;
-    color:rgb(100, 212, 160);
-    border: 2px;
-    opacity: 1.0;
+/*banner background image. */
+
+.banner_box{
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-bright-and-simple-light-blue-banner-background-image_519888.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  /*padding: 1%; */
+  width: 1900px;
+  height: 80px;
 }
 
-/*paragraph 1 font and font size*/
-p {
-    font-size: 6.1em;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: rgb(8, 226, 241);
-    text-align: left;
+.desc_box{
+  margin: 20px;
+  width: 300px;
+  height: 90px;
+ 
 }
 
 p2{
-  font-size: .4em;
-    padding: 1px 0;
-    font-weight: 800;
-    position: absolute;
-    right: -260px;
-    top: 45px;
-    height: 15px;
-    width: 50%;
-    color:rgb(8, 226, 241);
-    border: 2px;
-    opacity: 1.0;
-}
-/*banner background image. */
- .banner {
-  border: 1px solid black;
-  padding: 40px;
-  background: url(https://thumbs.gfycat.com/ThirdFearfulDamselfly-size_restricted.gif);   
-  background-repeat: no-repeat;
-  background-size: 100%;
-  opacity: 0.8;
-  display: block;
-}
-/*
-div.bottom:before {
-        content: "";
-        position: absolute;
-        left: 25px;
-        bottom: 0;
-        height: 15px;
-        width: 70%;
-        border-bottom: 3px solid #260;
-      }
-*/
-
-li{
-  font-family: 'Courier New';
-  display: inline;
-  font-size: 1.8em;
-  padding: .3px 0;
-  font-weight: 800;
-  text-indent: 2em;
-}
-a:hover {
-  color: rgb(15, 101, 230);
-  background-color: rgb(67, 212, 231);
-  text-align: center;
-
+  font-size: 30px;
+  
 }
 
-.pic{
-    width: 10%;
-    height: auto;
+
+.links{
+  width: 200px;
+  height: 210px;
+  border: 2px solid blue;
 }
