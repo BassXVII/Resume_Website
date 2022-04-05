@@ -2,7 +2,8 @@
 
 body {
   background: rgb(235, 198, 76);
-  background-image: url("https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=2000") 
+  background-image: url("https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=2000"); 
+  opacity: 0.9;
 }
 
 h1,p{
@@ -26,18 +27,35 @@ h1,p{
 
 .desc_box{
   text-align: center;
-  margin: 20px;
-  width: 600px;
-  height: 50px;
+
  
 }
 
 p2{
   font-size: 30px;
-  
+}
+
+p4{
+  font-size: 23px;
 }
 
 
+.home{
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+  font-size: 30px;
+    -ms-transform: translateX(-50%);
+   -webkit-transform: translateX(-50%);
+   transform: translateX(-50%);
+}
+
+.home2{
+  positition: absolute;
+  bottom: 1%;  
+  font-size: 20px;
+  
+}
 .links{
   font-size: 20px;
   width: 200px;
@@ -47,7 +65,6 @@ p2{
 
 /*Place text at bottom center*/
 .bottomcenter{
-   
    position: absolute;
    bottom: 10px;
    left: 50%;
@@ -61,16 +78,27 @@ p2{
   
 }
 
-.jobDesc{
+.jobTitle{
   margin: auto;
   border-style: double;
   text-align: center;
   font-size: 40px;
   background-color: #0ac2b6;
-  
-   
-  
   /*border: 2px solid #31c9dd;*/
+}
 
+.jobDesc{
+  margin: auto;
+  border-style: single;
+  text-align: left;
+  background-color: grey;
+  opacity: .9;
+  font-color: black; 
+}
+
+.aboutme{
+  border-style: solid;
+  font-size: 30px;
   
 }
+
